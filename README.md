@@ -2,11 +2,9 @@
 
 A minimal, transparent, closed-loop cardiovascular model with autonomic
 nervous system (ANS) modulation of **heart rate** and **blood pressure**,
-plus a phenomenological **wave-reflection** mechanism that gives the
-arterial pressure waveform a realistic secondary peak.
+plus a phenomenological **wave-reflection** mechanism.
 
-The project is a *reduced conceptual model* distilled from a large
-research-grade Fortran cardiovascular simulator (`cvs.f90`). It keeps the
+The project is a *conceptual model*, which keeps the
 original autonomic regulation formulas but replaces the full 1-D vascular
 network with a single artery–vascular-bed–vein loop, so the whole model
 fits in one short, readable, dependency-free Fortran file per stage.
