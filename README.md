@@ -1,4 +1,4 @@
-# Reduced ANS–CVS Model
+# ANS-CVS Integrated Model
 
 A minimal, transparent, closed-loop cardiovascular model with autonomic
 nervous system (ANS) modulation of **heart rate** and **blood pressure**,
